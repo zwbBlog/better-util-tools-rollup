@@ -1,0 +1,47 @@
+{
+  "name": "better-util-tools-rollup",
+  "version": "0.0.1-beta.1",
+  "description": "一个简单的工具集",
+  "main": "dist/better-util-tools-rollup.min.js",
+  "type": "module",
+  "files": [
+    "dist/better-util-tools-rollup.min.js"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "clean": "rimraf ./node_modules"
+  },
+  "homepage": "https://github.com/zwbBlog/better-util-tools-rollup",
+  "keywords": [
+    "better-util-tools",
+    "better-util",
+    "better-tools",
+    "util-tools",
+    "tools",
+    "tool",
+    "util",
+    "utils"
+  ],
+  "author": "zlgb",
+  "email": "zlgbmail@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-eslint": "^9.0.0",
+    "@rollup/plugin-typescript": "^9.0.1",
+    "@types/node": "^18.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "rollup": "^3.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,5 +1,5 @@
 /* eslint-disable */
-export default class Common {
+export default class ICommon {
   //判断两个数组是否相等
   arrayEqual(arr1, arr2) {
     if (arr1 === arr2) { return true; }
@@ -553,8 +553,8 @@ export default class Common {
     const debug = date!==undefined && !date;
     const isDate = this.isDate(now) && this.typeIs(now) === 'date';
     if (debug || !isDate) {
-      if (log) { console.error(`Invalid Date ${date}, system uses the default time`); }
-      now = new Date();
+      if (log) { console.error(`Invalid Date ${date}`); }
+      return '';
     }
     if (timeZoneBJ) {
       now = this.getBJDate(now);

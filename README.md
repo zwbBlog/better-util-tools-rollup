@@ -253,6 +253,6 @@ UtilTools.random(2,10)  //8
 
 1. streamToFile 方法调用报错修复
 
-> ### 0.0.15-beta.22 更新时间：2023-3-16
+> ### 0.0.15-beta.23 更新时间：2023-3-16
 
 1. 新增解析、获取图片信息方法 getImageData getFloatLocationByExif

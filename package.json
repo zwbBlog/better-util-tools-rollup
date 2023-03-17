@@ -3,7 +3,6 @@
   "version": "0.0.1-beta.1",
   "description": "一个简单的工具集",
   "main": "dist/better-util-tools-rollup.min.js",
-  "type": "module",
   "files": [
     "dist/better-util-tools-rollup.min.js"
   ],
@@ -14,7 +13,7 @@
   },
   "homepage": "https://github.com/zwbBlog/better-util-tools-rollup",
   "keywords": [
-    "better-util-tools",
+    "better-util-tools-rollup",
     "better-util",
     "better-tools",
     "util-tools",

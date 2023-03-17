@@ -32,8 +32,10 @@
   </body>
   <script>
     try {
-      console.log(window);
       const UtilTools = new BetterUtilTools();
+      console.log(UtilTools);
+      console.log(UtilTools.file.fileToBase64);
+      console.log(UtilTools.izExif.getImageData);
       console.log(
         UtilTools.formatDateTime({
           date: null,
@@ -293,11 +295,7 @@
       );
       $(window).scroll(debounceFn);
       UtilTools.loadResources(
-        [
-          "/dist/test/css/index.css",
-          "/dist/test/js/injectScript.js",
-          "/dist/test/js/injectScript2.js",
-        ],
+        ["css/index.css", "js/injectScript.js", "js/injectScript2.js"],
         () => {
           console.log("所有资源引入成功");
         }

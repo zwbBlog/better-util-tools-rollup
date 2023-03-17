@@ -1,4 +1,4 @@
-class EventEmitter {
+class IEventEmitter {
   constructor() {
     //存放订阅事件名字
     this.events = {};
@@ -30,5 +30,5 @@ class EventEmitter {
     this.on(eventName, fn);
   }
 }
-const eventEmitter = new EventEmitter();
+const eventEmitter = new IEventEmitter();
 export default eventEmitter;

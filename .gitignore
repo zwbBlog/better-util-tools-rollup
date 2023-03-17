@@ -1,9 +1,5 @@
-
-**/*/uploads/
-
 .DS_Store
 node_modules
-/dist
 .cache
 
 # local env files

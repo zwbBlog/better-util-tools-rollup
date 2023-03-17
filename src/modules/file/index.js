@@ -1,6 +1,6 @@
 
-import Common from '../common';
-export default class File extends Common{
+import ICommon from '../common';
+class IFile extends ICommon{
   constructor() {
     super();
   }
@@ -114,3 +114,5 @@ export default class File extends Common{
     }
   }
 }
+const iFile = new IFile();
+export default iFile;
